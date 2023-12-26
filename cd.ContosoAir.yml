@@ -4,7 +4,7 @@
 # https://aka.ms/yaml
 resources:
  pipelines:
-  - pipeline: buildContosoAir # identifier for the resource used in pipeline resource variables
+  - pipeline: azure-pipelines # identifier for the resource used in pipeline resource variables
     source: azure-pipelines # name of the pipeline that produces the artifact
 
 trigger:
