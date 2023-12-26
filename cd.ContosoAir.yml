@@ -20,7 +20,7 @@ steps:
 - task: DownloadPipelineArtifact@2
   inputs:
     buildType: 'specific'
-    project: '87edf4fa-f745-4b41-a377-407c454be127'
+    project: 'PartsUnlimited'
     definition: '2'
     buildVersionToDownload: 'latest'
     targetPath: '$(Pipeline.Workspace)'
