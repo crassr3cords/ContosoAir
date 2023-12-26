@@ -5,8 +5,7 @@
 resources:
   pipelines:
   - pipeline: buildContosoAir #identifier for the resource used in pipeline resource variables
-    project: 87edf4fa-f745-4b41-a377-407c454be127    
-    source: azure-pipelines #name of the pipeline that produces the artifact
+    source: crassr3cords.ContosoAir #name of the pipeline that produces the artifact
 
 trigger:
   branches:
@@ -24,7 +23,7 @@ steps:
     definition: '2'
     buildVersionToDownload: 'latest'
     targetPath: '$(Pipeline.Workspace)'
-
+    
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
