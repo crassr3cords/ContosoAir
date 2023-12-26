@@ -4,8 +4,9 @@
 # https://aka.ms/yaml
 resources:
   pipelines:
-  - pipeline: MyCI # identifier for the resource used in pipeline resource variables
-    source: azure-pipelines # name of the pipeline that produces the artifact
+  - pipeline: MyCI #identifier for the resource used in pipeline resource variables
+    project: PartsUnlimited    
+    source: azure-pipelines #name of the pipeline that produces the artifact
 
 trigger:
   branches:
