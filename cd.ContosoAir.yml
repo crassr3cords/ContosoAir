@@ -4,8 +4,8 @@
 # https://aka.ms/yaml
 resources:
   pipelines:
-  - pipeline: buildContosoAir # identifier for the resource used in pipeline resource variables
-    source: Student1-36590169.ContosoAir # name of the pipeline that produces the artifact
+  - pipeline: Student1-36590169.ContosoAir # identifier for the resource used in pipeline resource variables
+    source: azure-pipelines # name of the pipeline that produces the artifact
 
 trigger:
   branches:
