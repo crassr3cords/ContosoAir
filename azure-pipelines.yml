@@ -1,3 +1,6 @@
+name:
+  Student1-36590169.ContosoAir
+  
 pool:
   vmImage: 'ubuntu-latest'
 trigger:
