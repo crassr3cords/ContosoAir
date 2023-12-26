@@ -4,7 +4,7 @@
 # https://aka.ms/yaml
 resources:
   pipelines:
-  - pipeline: Student1-36590169.ContosoAir # identifier for the resource used in pipeline resource variables
+  - pipeline: MyCI # identifier for the resource used in pipeline resource variables
     source: azure-pipelines # name of the pipeline that produces the artifact
 
 trigger:
